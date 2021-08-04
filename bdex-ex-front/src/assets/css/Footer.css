@@ -1,0 +1,117 @@
+.footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  background-color: #131624;
+  font-size: 16px;
+  /* 添加阴影 */
+  box-shadow: 0 -2px 5px 0 rgba(0, 0, 0, 0.55);
+}
+
+.footerlayout {
+  width: 597px;
+  margin: 0 auto;
+  height: 160px;
+  text-align: center;
+}
+
+.download-apk {
+  margin: 0 30px;
+  color: #ffffff;
+  /* text-decoration: none; */
+}
+
+.hide_img {
+  display: none;
+  z-index: 9999;
+  position: absolute;
+}
+
+.download-apk:hover+.hide_img {
+  display: block
+}
+
+.submittoken {
+  text-align: left;
+  width: 105px;
+  font-size: 16px;
+  color: #ffffff;
+  letter-spacing: 0.1px;
+  margin-top: 48px;
+}
+
+.middleborder {
+  border: 1px solid #ffffff;
+}
+
+.contactus {
+  text-align: right;
+  width: 105px;
+  font-size: 16px;
+  color: #ffffff;
+  letter-spacing: 0.1px;
+  margin-top: 48px;
+  margin-right: 20px;
+}
+
+.footer-bottom {
+  opacity: 0.5;
+  color: #ffffff;
+  margin-top: 20px;
+  /* 字间距 */
+  letter-spacing: 0.1px;
+}
+
+.newaccountbody {
+  width: 240px;
+}
+
+.newaccountdialog>>>.el-dialog__header {
+  padding: 0;
+}
+
+.newaccountdialog>>>.el-dialog__body {
+  height: 266px;
+  padding: 0;
+  color: #606266;
+  font-size: 14px;
+  margin-left: 25%;
+  text-align: center;
+}
+
+.newaccountimg {
+  width: 117px;
+  height: 72px;
+  margin-top: 40px;
+}
+
+.businesscooperation {
+  margin: 20px 0;
+  font-size: 16px;
+  color: #333333;
+  letter-spacing: -0.42px;
+}
+
+.submittokendialog>>>.el-dialog__header {
+  padding: 0;
+}
+
+.submittokendialog>>>.el-dialog__body {
+  height: 266px;
+  padding: 0;
+  color: #606266;
+  font-size: 14px;
+  margin-left: 20%;
+  text-align: center;
+}
+
+.submittokenimg {
+  width: 111px;
+  height: 92px;
+  margin: 20px 0;
+}
+
+.submittokenbody {
+  width: 300px;
+}

@@ -1,0 +1,28 @@
+.tradeheader {
+  font-family: PingFangSC-Regular;
+  min-width: 1200px;
+  height: 88px;
+  padding: 20px 0 0 0;
+  text-align: center;
+  font-size: 16px;
+  color: #fcf8f8;
+  line-height: 30px;
+  background-color: #131624;
+}
+.frontCoin {
+  font-size: 25px;
+  color: #ffffff;
+  letter-spacing: 0.07px;
+}
+.backCoin {
+  font-size: 16px;
+  color: #ffffff;
+}
+/* header交易对 */
+.pair {
+  margin-top: 15px;
+  border-right: 1px solid #ffffff77;
+}
+.change {
+  color: #ff1739;
+}

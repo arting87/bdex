@@ -1,0 +1,57 @@
+rpc:
+  addr: 0.0.0.0:8081
+  tls:
+    certFile: /etc/zhouyasong/tbcexchange/certs/server.pem
+    keyFile: /etc/zhouyasong/tbcexchange/certs/server.key
+  logLevel: 2 # grpc `errorLog`
+
+eos:
+  url: http://peer1.eoshuobipool.com:8181
+  creator:
+    name: 部署合约账户的名称
+    privateKey: '部署合约账户的私钥'
+
+db:
+  maxIdleConns: 2
+  maxOpenConns: 0
+  showSQL: true
+  logLevel: 1 # xorm `LOG_DEBUG`
+  cacheExpiration: 24h
+  maxQueryLimit: 1000
+  maxQueryOffset: 10000
+
+log:
+  level: debug # option: debug, info, warn, error
+  disableStacktrace: true
+
+bdex-ex-backend:
+  dsn: root:password@tcp(localhost:3306)/exchange?charset=utf8
+
+sync:
+  limitContract: 100 # for contract
+  limitDB: 100 # for database
+  batchInterval: 10 # seconds
+  updateInterval: 1 # hours
+  tokenID: 0 # low bound
+
+chain:
+  1:
+    ip: http://peer1.eoshuobipool.com:8181
+    name: 部署eos合约账户的名称
+    privatekey: 部署eos合约账户的私钥
+    publickey: 部署eos合约账户的公钥
+  2:
+    ip: http://peer1.eoshuobipool.com:8181
+    name: 部署eos合约账户的名称
+    privatekey: 部署合约账户的私钥
+    publickey: 部署eos合约账户的公钥
+  3:
+    ip: http://peer1.eoshuobipool.com:8181
+    name: 部署eos合约账户的名称
+    privatekey: 部署eos合约账户的私钥
+    publickey: 部署eos合约账户的公钥
+  4:
+    ip: http://peer1.eoshuobipool.com:8181
+    name: 部署eos合约账户的名称
+    privatekey: 部署eos合约账户的私钥
+    publickey: 部署eos合约账户的公钥

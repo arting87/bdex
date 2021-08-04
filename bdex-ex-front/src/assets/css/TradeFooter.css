@@ -1,0 +1,67 @@
+.el-tabs {
+  background-color: #131624;
+  border-radius: 4px;
+  border: 0px solid #131624;
+}
+.el-table {
+  background-color: #131624;
+  font-size: 16px;
+  color: #ffffff;
+  letter-spacing: -0.42px;
+  text-align: center;
+}
+.el-tabs >>> .el-tabs__header {
+  margin: 0;
+  border-radius: 4px;
+  background-color: #131624;
+  border-bottom-color: #131624;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+}
+.el-tabs >>> .el-tabs__content {
+  padding: 5px;
+}
+/* 去除标题栏border */
+.el-tabs >>> .el-tabs__nav {
+  border: 0px solid #131624;
+}
+/* 标题栏 */
+.el-tabs >>> .el-tabs__item.is-active {
+  background-color: #131624;
+  border-color: #131624;
+  opacity: 0.5;
+  font-family: PingFangSC-Regular;
+  font-size: 16px;
+  color: #FFFFFF;
+  letter-spacing: -0.37px;
+}
+/* 标题box */
+.el-tabs >>> .el-tabs__item {
+  font-size: 12px;
+  color: #ffffff;
+  height: 44px;
+  line-height: 44px;
+  font-size: 12px;
+}
+
+/* label栏 */
+.el-table >>> th {
+  padding: 28px 0;
+  background-color: #131624;
+  border-bottom: 1px solid #21263c;
+}
+/* 每行 */
+.el-table >>> .el-table__row {
+  background-color: #131624;
+}
+/* 去除每行横线 */
+.el-table >>> td {
+  padding: 8px 0;
+  border-bottom: 0px solid #131624;
+}
+.el-table::before {
+  background-color: #131624;
+}
+/* 控制每行活动颜色 */
+.el-table >>> .el-table__body tr:hover > td {
+  background-color: #21263c;
+}

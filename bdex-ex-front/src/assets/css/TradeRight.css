@@ -1,0 +1,109 @@
+.traderight {
+  background-color: #131624;
+  border-radius: 4px;
+  padding: 0;
+  /* width: 292px; */
+}
+
+
+
+/* 表格 */
+.el-tabs {
+  background-color: #131624;
+  border-radius: 4px;
+  border: 0px solid #131624;
+}
+/* 表格Header */
+.el-tabs >>> .el-tabs__header {
+  letter-spacing: -0.37px;
+  margin: 0;
+  border-radius: 4px;
+  background-color: #131624;
+  border-bottom-color: #131624;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  border-bottom: 0px solid #131624;
+}
+/* 表格Header 选中title的状态*/
+.el-tabs >>> .el-tabs__item.is-active {
+  background-color: #21263c;
+  border-color: #131624;
+  color: #ffffff;
+  letter-spacing: -0.37px;
+}
+.el-tabs >>> .el-tabs__item {
+  width: 97px;
+  text-align: center;
+  font-size: 14px;
+  color: #ffffff;
+  /* height: 40px; */
+}
+
+/* table里面的cell间距 */
+.el-table >>> td {
+  padding: 1px 0;
+  /* border-bottom: 0px solid #EBEEF5; */
+}
+.el-tabs >>> .el-tabs__content {
+  padding: 5px;
+}
+.color-red {
+  color: #fa5252;
+}
+.color-green {
+  color: #41b37d;
+}
+.el-table {
+  font-size: 12px;
+  background-color: #131624;
+}
+/*控制买卖盘下部分的padding */ 
+.btable >>> th {
+  padding: 0;
+  background-color: #131624;
+  border-bottom: 0px solid #131624;
+}
+/*控制买卖盘上部分的padding */
+.sbtable >>> th {
+  padding: 10px 0;
+  font-size: 12px;
+  background-color: #131624;
+  border-bottom: 0px solid #131624;
+}
+
+.middle {
+  background-color: #131624;
+  padding: 0 8px;
+  height: 49px;
+  line-height: 49px;
+  border-top: 1px solid #21263c;
+  border-bottom: 1px solid #21263c;
+  font-family: PingFangSC-Regular;
+  font-size: 16px;
+  color: #ffffff81;
+  letter-spacing: -0.37px;
+}
+/* 控制表格里每行之间的padding */
+.el-table >>> td {
+  padding: 0;
+  font-size: 13px;
+  border-bottom: 0px solid #131624;
+}
+.el-tabs >>> .el-tabs__nav-wrap::after {
+  background-color: #131625;
+}
+.el-tabs >>> .el-tabs__active-bar {
+  background-color: #131625;
+}
+.el-table::before {
+  background-color: #131624;
+}
+.el-table >>> .el-table__row {
+  background-color: #131624;
+}
+/* 控制每行活动颜色 */
+.el-table >>> .el-table__body tr:hover > td {
+  background-color: #21263c;
+}
+.el-tabs__item.is-active {
+  color: #ffffff;
+}

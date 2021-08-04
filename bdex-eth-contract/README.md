@@ -1,0 +1,1 @@
+在truffle-config.js里添加部署合约的私钥

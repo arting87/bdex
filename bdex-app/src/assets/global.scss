@@ -1,0 +1,66 @@
+
+$bg: #131624;
+$textColor: #8CA1FF;
+$lightTextColor: #85ABFF;
+$whiteTextColor: #fff;
+$divideColor: #21263C;
+$riseColor: #06c083;
+$buyColor: $riseColor;
+$fallColor: #e4544e;
+$sellColor: $fallColor;
+$revokeTextColor: #347ce1;
+
+#buy-color {
+  color: $riseColor;
+}
+
+#sell-color {
+  color: $sellColor;
+}
+
+.fixed-width {
+  width: 33.5rem !important;
+}
+
+.custom-button {
+  width: 7.7rem;
+  height: 3.4rem;
+  background-color: #347ce1;
+  border-radius: 0.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+  color: #fff;
+}
+.trade-btn {
+  width: 7.7rem;
+  height: 3.4rem;
+  background-color: #347ce1;
+  border-radius: 0.2rem;
+  line-height: 3.4rem;
+  font-size: 1.4rem;
+  color: #ffffff;
+  border: 0px;
+}
+.divide-1 {
+  height: 0.1rem;
+  width: 100%;
+  background-color: $divideColor;
+}
+
+.no-data {
+  margin-top: 2rem;
+  color: black;
+  font-size: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 8.4rem;
+  height: 8.4rem;
+  background-image: url('/static/images/暂无数据@2x.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  align-self: center;
+}

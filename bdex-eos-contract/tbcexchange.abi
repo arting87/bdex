@@ -1,0 +1,370 @@
+{
+    "____comment": "This file was generated with eosio-abigen. DO NOT EDIT ",
+    "version": "eosio::abi/1.1",
+    "types": [],
+    "structs": [
+        {
+            "name": "addtoken",
+            "base": "",
+            "fields": [
+                {
+                    "name": "token_contract",
+                    "type": "string"
+                },
+                {
+                    "name": "symbol",
+                    "type": "string"
+                },
+                {
+                    "name": "decimal",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "backorder",
+            "base": "",
+            "fields": [
+                {
+                    "name": "order_id",
+                    "type": "uint64"
+                }
+            ]
+        },
+        {
+            "name": "deleorder",
+            "base": "",
+            "fields": [
+                {
+                    "name": "order_id",
+                    "type": "uint64"
+                },
+                {
+                    "name": "account_name",
+                    "type": "name"
+                },
+                {
+                    "name": "trade_type",
+                    "type": "bool"
+                },
+                {
+                    "name": "sell_token",
+                    "type": "asset"
+                },
+                {
+                    "name": "sell_token_contract",
+                    "type": "string"
+                },
+                {
+                    "name": "price",
+                    "type": "float64"
+                },
+                {
+                    "name": "buy_token",
+                    "type": "asset"
+                },
+                {
+                    "name": "buy_token_contract",
+                    "type": "string"
+                },
+                {
+                    "name": "target_address",
+                    "type": "string"
+                },
+                {
+                    "name": "fee",
+                    "type": "asset"
+                },
+                {
+                    "name": "withdrawable",
+                    "type": "bool"
+                },
+                {
+                    "name": "ex_success",
+                    "type": "bool"
+                },
+                {
+                    "name": "create_at",
+                    "type": "uint32"
+                },
+                {
+                    "name": "update_at",
+                    "type": "uint32"
+                }
+            ]
+        },
+        {
+            "name": "deleteall",
+            "base": "",
+            "fields": [
+                {
+                    "name": "a",
+                    "type": "int32"
+                }
+            ]
+        },
+        {
+            "name": "deletoken",
+            "base": "",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "drawallasset",
+            "base": "",
+            "fields": [
+                {
+                    "name": "boss",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "drawallfee",
+            "base": "",
+            "fields": [
+                {
+                    "name": "boss",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "submit",
+            "base": "",
+            "fields": [
+                {
+                    "name": "from",
+                    "type": "name"
+                },
+                {
+                    "name": "order_id",
+                    "type": "uint64"
+                },
+                {
+                    "name": "to",
+                    "type": "name"
+                },
+                {
+                    "name": "count",
+                    "type": "asset"
+                },
+                {
+                    "name": "asset_contract",
+                    "type": "string"
+                },
+                {
+                    "name": "orderb_id",
+                    "type": "uint64"
+                },
+                {
+                    "name": "dealprice",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "submitback",
+            "base": "",
+            "fields": [
+                {
+                    "name": "order_id",
+                    "type": "uint64"
+                },
+                {
+                    "name": "to",
+                    "type": "name"
+                },
+                {
+                    "name": "sell",
+                    "type": "asset"
+                },
+                {
+                    "name": "sell_contract",
+                    "type": "string"
+                },
+                {
+                    "name": "sell_before",
+                    "type": "asset"
+                },
+                {
+                    "name": "buy_before",
+                    "type": "asset"
+                },
+                {
+                    "name": "fee_before",
+                    "type": "asset"
+                },
+                {
+                    "name": "withdrawable",
+                    "type": "bool"
+                },
+                {
+                    "name": "ex_success",
+                    "type": "bool"
+                },
+                {
+                    "name": "flag",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "token",
+            "base": "",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "uint64"
+                },
+                {
+                    "name": "tcontract",
+                    "type": "uint64"
+                },
+                {
+                    "name": "symbol",
+                    "type": "string"
+                },
+                {
+                    "name": "decimal",
+                    "type": "string"
+                },
+                {
+                    "name": "balance",
+                    "type": "asset"
+                },
+                {
+                    "name": "iscancle",
+                    "type": "bool"
+                }
+            ]
+        },
+        {
+            "name": "transneed",
+            "base": "",
+            "fields": [
+                {
+                    "name": "order_id",
+                    "type": "uint64"
+                }
+            ]
+        },
+        {
+            "name": "upstate",
+            "base": "",
+            "fields": [
+                {
+                    "name": "from",
+                    "type": "name"
+                },
+                {
+                    "name": "ordera_id",
+                    "type": "uint64"
+                },
+                {
+                    "name": "orderb_id",
+                    "type": "uint64"
+                },
+                {
+                    "name": "withdrawable",
+                    "type": "bool"
+                }
+            ]
+        },
+        {
+            "name": "withdraw",
+            "base": "",
+            "fields": [
+                {
+                    "name": "from",
+                    "type": "name"
+                },
+                {
+                    "name": "order_id",
+                    "type": "uint64"
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "name": "addtoken",
+            "type": "addtoken",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "backorder",
+            "type": "backorder",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "deleteall",
+            "type": "deleteall",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "deletoken",
+            "type": "deletoken",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "drawallasset",
+            "type": "drawallasset",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "drawallfee",
+            "type": "drawallfee",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "submit",
+            "type": "submit",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "transneed",
+            "type": "transneed",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "upstate",
+            "type": "upstate",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "withdraw",
+            "type": "withdraw",
+            "ricardian_contract": ""
+        }
+    ],
+    "tables": [
+        {
+            "name": "deleorder",
+            "type": "deleorder",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        },
+        {
+            "name": "submitback",
+            "type": "submitback",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        },
+        {
+            "name": "token",
+            "type": "token",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        }
+    ],
+    "ricardian_clauses": [],
+    "variants": []
+}

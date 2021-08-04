@@ -1,0 +1,52 @@
+.tradeasidebottom {
+  min-width: 292px;
+  min-height: 424px;
+  padding: 0;
+}
+.boxbg {
+  border-top: 1px solid #21263C;
+  border-bottom: 1px solid #21263C;
+  background-color: #131624;
+  font-size: 16px;
+  color: #ffffff81;
+  letter-spacing: -0.37px;
+  font-family: PingFangSC-Regular;
+}
+.latestdeal {
+  height: 49px;
+  padding: 0 0 0 11px;
+  font-size: 16px;
+  line-height: 49px;
+}
+.el-table {
+  font-size: 12px;
+  background-color: #131624;
+}
+/* label */
+.el-table >>> th {
+  padding: 6px 0;
+  background-color: #131624;
+  border-bottom: 1px solid #21263C;
+  font-family: PingFangSC-Regular;
+  font-size: 12px;
+  color: #ffffff80;
+  letter-spacing: -0.37px;
+}
+/* 控制表格里每行之间的padding */
+.el-table >>> td {
+  padding: 0;
+  color: #ffffff;
+  font-size: 12px;
+  border-bottom: 0px solid #131624;
+}
+
+.el-table::before {
+  background-color: #131624;
+}
+.el-table >>> .el-table__row {
+  background-color: #131624;
+}
+/* 控制每行活动颜色 */
+.el-table >>> .el-table__body tr:hover > td {
+  background-color: #21263c;
+}

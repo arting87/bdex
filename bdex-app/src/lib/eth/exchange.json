@@ -1,0 +1,671 @@
+[
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "getExchangeEthBalance",
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "orderid",
+        "type": "uint64"
+      },
+      {
+        "name": "useraddress",
+        "type": "address"
+      },
+      {
+        "name": "receiver",
+        "type": "string"
+      },
+      {
+        "name": "tradetype",
+        "type": "bool"
+      },
+      {
+        "name": "sellamount",
+        "type": "uint256"
+      },
+      {
+        "name": "price",
+        "type": "uint256"
+      },
+      {
+        "name": "buyaddress",
+        "type": "address"
+      },
+      {
+        "name": "createTime",
+        "type": "uint256"
+      }
+    ],
+    "name": "depositsOrder",
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "payable": true,
+    "stateMutability": "payable",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [],
+    "name": "restartContract",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [],
+    "name": "pauseContract",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "id",
+        "type": "uint64"
+      },
+      {
+        "name": "add",
+        "type": "address"
+      },
+      {
+        "name": "handler",
+        "type": "bool"
+      }
+    ],
+    "name": "changeOwners",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "startContract",
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "txid",
+        "type": "uint64"
+      }
+    ],
+    "name": "withdrawal",
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "orderid",
+        "type": "uint64"
+      },
+      {
+        "name": "useraddress",
+        "type": "address"
+      },
+      {
+        "name": "receiver",
+        "type": "string"
+      },
+      {
+        "name": "tradetype",
+        "type": "bool"
+      },
+      {
+        "name": "sellamount",
+        "type": "uint256"
+      },
+      {
+        "name": "selladdress",
+        "type": "address"
+      },
+      {
+        "name": "price",
+        "type": "uint256"
+      },
+      {
+        "name": "createTime",
+        "type": "uint256"
+      }
+    ],
+    "name": "depositsSell",
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [
+      {
+        "name": "id",
+        "type": "uint64"
+      }
+    ],
+    "name": "getOwners",
+    "outputs": [
+      {
+        "name": "ownerid",
+        "type": "uint64"
+      },
+      {
+        "name": "owners",
+        "type": "address"
+      },
+      {
+        "name": "addTime",
+        "type": "uint256"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [],
+    "name": "getMoney",
+    "outputs": [],
+    "payable": true,
+    "stateMutability": "payable",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "newTopOwner",
+        "type": "address"
+      }
+    ],
+    "name": "chnageTopOwner",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [],
+    "name": "destoryContract",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [
+      {
+        "name": "",
+        "type": "uint64"
+      }
+    ],
+    "name": "orderidToUsers",
+    "outputs": [
+      {
+        "name": "order_id",
+        "type": "uint64"
+      },
+      {
+        "name": "user_address",
+        "type": "address"
+      },
+      {
+        "name": "user_receiver",
+        "type": "string"
+      },
+      {
+        "name": "trade_type",
+        "type": "bool"
+      },
+      {
+        "name": "sell_amount",
+        "type": "uint256"
+      },
+      {
+        "name": "sell_address",
+        "type": "address"
+      },
+      {
+        "name": "price",
+        "type": "uint256"
+      },
+      {
+        "name": "buy_amount",
+        "type": "uint256"
+      },
+      {
+        "name": "buy_address",
+        "type": "address"
+      },
+      {
+        "name": "fees",
+        "type": "uint256"
+      },
+      {
+        "name": "withdrawalable",
+        "type": "bool"
+      },
+      {
+        "name": "ex_success",
+        "type": "bool"
+      },
+      {
+        "name": "create_at",
+        "type": "uint256"
+      },
+      {
+        "name": "update_at",
+        "type": "uint256"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [
+      {
+        "name": "tokenaddr",
+        "type": "address"
+      }
+    ],
+    "name": "getExchangeErc20Balance",
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "txid",
+        "type": "uint64"
+      },
+      {
+        "name": "to",
+        "type": "address"
+      },
+      {
+        "name": "sell",
+        "type": "uint256"
+      },
+      {
+        "name": "buy",
+        "type": "uint256"
+      },
+      {
+        "name": "fee",
+        "type": "uint256"
+      }
+    ],
+    "name": "submit",
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "addr",
+        "type": "address"
+      },
+      {
+        "name": "types",
+        "type": "string"
+      },
+      {
+        "name": "decimals",
+        "type": "uint64"
+      }
+    ],
+    "name": "addToken",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "addr",
+        "type": "address"
+      }
+    ],
+    "name": "deleteToken",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "txid",
+        "type": "uint64"
+      }
+    ],
+    "name": "upstate",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [
+      {
+        "name": "tokenid",
+        "type": "uint64"
+      }
+    ],
+    "name": "getTokenInfor",
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint64"
+      },
+      {
+        "name": "",
+        "type": "string"
+      },
+      {
+        "name": "",
+        "type": "address"
+      },
+      {
+        "name": "",
+        "type": "uint64"
+      },
+      {
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "getTopOwner",
+    "outputs": [
+      {
+        "name": "topOwner",
+        "type": "address"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "payable": true,
+    "stateMutability": "payable",
+    "type": "constructor"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "name": "orderid",
+        "type": "uint64"
+      },
+      {
+        "indexed": false,
+        "name": "receiver",
+        "type": "string"
+      },
+      {
+        "indexed": false,
+        "name": "tradetype",
+        "type": "bool"
+      },
+      {
+        "indexed": false,
+        "name": "sellamount",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "name": "selladdress",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "name": "price",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "name": "buyamount",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "name": "createTime",
+        "type": "uint256"
+      }
+    ],
+    "name": "DepositsSell",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "name": "orderid",
+        "type": "uint64"
+      },
+      {
+        "indexed": false,
+        "name": "tradetype",
+        "type": "bool"
+      },
+      {
+        "indexed": false,
+        "name": "sellamount",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "name": "price",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "name": "buyamount",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "name": "buyaddress",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "name": "createTime",
+        "type": "uint256"
+      }
+    ],
+    "name": "Deposits",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "name": "txid",
+        "type": "uint64"
+      }
+    ],
+    "name": "Withdrawl",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "name": "txid",
+        "type": "uint64"
+      },
+      {
+        "indexed": false,
+        "name": "to",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "name": "sell",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "name": "buy",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "name": "fee",
+        "type": "uint256"
+      }
+    ],
+    "name": "Submit",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "name": "owner",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "name": "amount",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "name": "time",
+        "type": "uint256"
+      }
+    ],
+    "name": "GetMoney",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "name": "erc20",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "name": "amount",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "name": "time",
+        "type": "uint256"
+      }
+    ],
+    "name": "GetErc20Money",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "name": "id",
+        "type": "uint64"
+      },
+      {
+        "indexed": false,
+        "name": "owners",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "name": "handler",
+        "type": "bool"
+      }
+    ],
+    "name": "changeExchangeOwners",
+    "type": "event"
+  }
+]

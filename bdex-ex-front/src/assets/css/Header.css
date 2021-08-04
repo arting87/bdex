@@ -1,0 +1,183 @@
+/* 固定header */
+.header {
+  position: fixed;
+  z-index: 52;
+  top: 0;
+  width: 100%;
+  height: 90px;
+  background-color: #131624;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.55);
+}
+.el-menu {
+  margin-top: 15px;
+  left: 50%;
+  margin-left: -610px;
+  width: 1200px;
+  border-bottom: solid 0px;
+  letter-spacing: -0.18px;
+}
+.el-menu--horizontal > .el-menu-item.is-active {
+  border-bottom: 0px solid #131624;
+  color: #ffffff;
+}
+/* 控制nav字体大小 */
+.el-menu-item {
+  font-size: 18px;
+}
+.el-submenu >>> .el-submenu__title {
+  font-size: 18px;
+}
+.el-menu--horizontal >>> .el-menu-item.is-active {
+  border-bottom: 0px solid #131625;
+}
+.el-dropdown-link {
+  cursor: pointer;
+  color: #409eff;
+}
+/* .el-icon-arrow-down {
+    font-size: 20px;
+  } */
+/* ETH间隔线 */
+.account {
+  border-bottom: 0.5px solid #dcdfe6;
+}
+/* LOGO属性 */
+.logo {
+  width: 104px;
+  height: 35px;
+}
+.logostyle {
+  margin-right: 140px;
+}
+.eos-account {
+  font-size: 20px;
+}
+
+
+
+/* dialog */
+.newaccountimg {
+  width: 117px;
+  height: 72px;
+  margin-top: 40px;
+}
+.importaccounttitle {
+  font-size: 18px;
+  color: #3f3d56;
+  margin: 5px 0;
+  letter-spacing: -0.47px;
+}
+.newaccounttitle {
+  font-size: 18px;
+  color: #3f3d56;
+  margin: 15px 0;
+  letter-spacing: -0.47px;
+}
+.newaccountdialog >>> .el-dialog__header {
+  padding: 0;
+}
+.newaccountdialog >>> .el-dialog__body {
+  height: 308px;
+  padding: 0;
+  color: #606266;
+  font-size: 14px;
+  margin-left: 25%;
+  text-align: center;
+}
+.newaccountbody {
+  width: 234px;
+}
+
+.importaccountimg {
+  width: 111px;
+  height: 88px;
+  margin: 5px 0;
+}
+.unlocaccountimg {
+  width: 114px;
+  height: 81px;
+  margin: 20px 0;
+}
+.exportaccountimg {
+  width: 127px;
+  height: 77px;
+  margin: 20px 0;
+}
+.deleteaccountimg {
+  width: 111px;
+  height: 78px;
+  margin: 20px 0;
+}
+.ethadress {
+  text-align: left;
+}
+
+.warningimg {
+  width: 111px;
+  height: 90px;
+  margin: 20px 0;
+}
+.warntitle {
+  font-size: 16px;
+  color: #e4544e;
+}
+.newaccountinfodialog >>> .el-dialog__header {
+  padding: 0;
+}
+.newaccountinfodialog >>> .el-dialog__body {
+  height: 390px;
+  padding: 0;
+  color: #606266;
+  font-size: 14px;
+  margin-left: 10%;
+  text-align: center;
+}
+.newaccountinfobody {
+  width: 380px;
+}
+.exportaccountinnerbtn {
+  margin-top: 30px;
+}
+.delinnerdialog >>> .el-dialog__header {
+  padding: 0;
+}
+.delinnerdialog >>> .el-dialog__body {
+  height: 308px;
+  padding: 0;
+  color: #606266;
+  font-size: 14px;
+  margin-left: 15%;
+  text-align: center;
+}
+.h3style {
+  margin-top: 5px;
+}
+.delinnerbody {
+  width: 370px;
+  padding: 0;
+}
+.delinnerdialog >>> .el-dialog__body {
+  height: 328px;
+  padding: 0;
+  color: #606266;
+  font-size: 14px;
+  margin-left: 12%;
+  text-align: center;
+}
+.importinnerdialog >>> .el-dialog__header {
+  padding: 0;
+}
+.importinnerdialog >>> .el-dialog__body {
+  height: 308px;
+  padding: 0;
+  color: #606266;
+  font-size: 14px;
+  margin-left: 12%;
+  text-align: center;
+}
+.importinnerbody {
+  width: 380px;
+}
+.importinnerbtn {
+  margin-top: 10px;
+}

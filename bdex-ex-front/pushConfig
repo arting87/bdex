@@ -1,0 +1,6 @@
+push到master之前修改：
+
+lib/eos/config: 启用主网配置
+lib/eth/web3和exchange：启用主网配置
+main.js和socket.js：修改ws协议
+config/index.js：修改port: 8086,host:0.0.0.0
